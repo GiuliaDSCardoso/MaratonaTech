@@ -1,4 +1,4 @@
-/* Estilos Gerais */
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
@@ -14,7 +14,7 @@ body {
     padding: 0 20px;
 }
 
-/* Estilos do Header */
+
 header {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -24,7 +24,7 @@ header {
     justify-content: space-between;
     
     align-items: center;
-    height: 100px; /* Ajuste conforme necessário */
+    height: 100px; 
 }
 
 
@@ -54,12 +54,12 @@ header {
     color: #FED049;
 }
 
-/* Banner */
+
 #banner {
     
     position: relative;
     overflow: hidden;
-    height: 667px; /* Ajuste conforme necessário */
+    height: 667px; 
 }
 
 .slideshow-container {
@@ -109,7 +109,7 @@ header {
 
 #about .about-img {
     position: relative;
-    display: inline-block; /* Permite que o conteúdo interno seja posicionado corretamente */
+    display: inline-block; 
 }
 
 #about img {
@@ -120,15 +120,15 @@ header {
 
 .logo-blur {
     position: absolute;
-    bottom: 10px; /* Ajuste conforme necessário */
-    left: 10px; /* Ajuste conforme necessário */
+    bottom: 10px;
+    left: 10px; 
 }
 
 .logo-blur .blur {
-    width: 50px; /* Ajuste conforme necessário */
+    width: 50px; 
     height: auto;
 }
-/* Sessão Sobre */
+
 #about {
     background-color: #422311;
     color:rgb(225, 231, 209);
@@ -138,15 +138,15 @@ header {
 }
 
 #about img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
-    max-height: 400px; /* Define um tamanho máximo para a altura da imagem */
+    max-width: 100%; 
+    height: auto; 
+    max-height: 400px; 
 }
 .h3cor{
     color: #FED049;
 }
 
-/* Sessão Galeria */
+
 #gallery {
     background-color: #FED049;
     text-align: center;
@@ -200,10 +200,7 @@ header {
     color: #333;
 }
 
-/* Sessão Serviços */
-/* Sessão Serviços */
-/* Sessão Serviços */
-/* Estilos da Sessão Serviços */
+
 #services {
     background-color: #422311;
     color: white;
@@ -221,7 +218,7 @@ header {
     position: relative;
     overflow: hidden;
     margin: 15px;
-    width: calc(33.333% - 30px); /* Ajuste conforme necessário */
+    width: calc(33.333% - 30px); 
     box-sizing: border-box;
 }
 
@@ -287,7 +284,7 @@ header {
     opacity: 1;
 }
 
-/* Animação do título */
+
 .animated-title {
     position: relative;
     display: inline-block;
@@ -389,8 +386,8 @@ header {
     opacity: 1;
 }
 
-/* Sessão Contato */
-/* Estilos da Sessão Contato */
+
+
 #contact {
     background-color: #1F110B;
     color: white;
@@ -455,7 +452,7 @@ header {
     margin-top: 20px;
 }
 
-/* Estilos do Rodapé */
+
 footer {
     background-color: #422311; ;
     color: white;
@@ -546,4 +543,5 @@ footer {
         margin: 20px 0;
     }
 }
+
 
